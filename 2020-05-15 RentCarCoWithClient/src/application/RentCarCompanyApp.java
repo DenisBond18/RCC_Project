@@ -17,8 +17,6 @@ public class RentCarCompanyApp {
 		 * applicationContext.getBean(BossServiceImpl.class);
 		 * System.out.println(bossServise.setConfig(new RccConfigDto(1.5, 10.5)));
 		 */
-		
-
 	}
 
 }
