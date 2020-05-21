@@ -29,7 +29,7 @@ public class BusinessDataSourceConfig {
 	@Primary 
 	@Bean(name = "businessDataSourceProperties")
 	@ConfigurationProperties("business.datasource")
-	public DataSourceProperties dataSourceProperties() {
+	public DataSourceProperties dataSourceProperties() { 
 		return new DataSourceProperties();
 	}
 	
