@@ -21,7 +21,7 @@ public class RccConfig {
 	private double fuelPrice;
 	
 	public RccConfig(double delayPenalty, double fuelPrice) {
-		this.delayPenalty = delayPenalty;
+		this.delayPenalty = delayPenalty; 
 		this.fuelPrice = fuelPrice;
 	}
 	

@@ -26,7 +26,7 @@ import com.zaxxer.hikari.HikariDataSource;
 )
 public class BusinessDataSourceConfig {
 	
-	@Primary
+	@Primary 
 	@Bean(name = "businessDataSourceProperties")
 	@ConfigurationProperties("business.datasource")
 	public DataSourceProperties dataSourceProperties() {
