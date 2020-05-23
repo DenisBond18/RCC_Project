@@ -11,7 +11,7 @@ import application.business.services.BossServiceImpl;
 public class RentCarCompanyApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RentCarCompanyApp.class, args);
+		SpringApplication.run(RentCarCompanyApp.class, args); 
 	}
 
 }
