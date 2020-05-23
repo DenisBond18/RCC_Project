@@ -12,13 +12,6 @@ public class RentCarCompanyApp {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RentCarCompanyApp.class, args);
-		/*
-		 * BossServiceImpl bossServise =
-		 * applicationContext.getBean(BossServiceImpl.class);
-		 * System.out.println(bossServise.setConfig(new RccConfigDto(1.5, 10.5)));
-		 */
-		
-
 	}
 
 }
