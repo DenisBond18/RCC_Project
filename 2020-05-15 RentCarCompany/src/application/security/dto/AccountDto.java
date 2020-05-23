@@ -14,5 +14,4 @@ public class AccountDto {
 	
 	private String login;
 	private Set<String> roles;
-
 }

@@ -18,7 +18,7 @@ import org.springframework.web.server.ResponseStatusException;
 @RestController
 @CrossOrigin
 @RequestMapping("/jwt")
-public class JWTController {
+public class JWTController { 
 
 	@Autowired AuthenticationManager authenticationManager;
 	@Autowired JWTTokenUtil jwtTokenUtil;
